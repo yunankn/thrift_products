@@ -38,5 +38,5 @@ jobs:
           revision-image-url: cr.yandex/${{ secrets.YC_REGISTRY_ID }}/thrift_products:latest
           revision-service-account-id: ${{ secrets.YC_SA_ID }}
           revision-env: |
-            AMPQ_URL=${{ secrets.ENV_AMPQ_URL }}
+            AMQP_URL=${{ secrets.ENV_AMQP_URL }}
             POSTGRES_URL=${{ secrets.ENV_POSTGRES_URL }}
