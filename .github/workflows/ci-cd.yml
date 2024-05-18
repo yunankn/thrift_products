@@ -26,7 +26,7 @@ jobs:
           docker push cr.yandex/${{ secrets.YC_REGISTRY_ID }}/thrift_products:latest
   deploy:
     name: Deploy
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     needs: [build-and-push-to-yc]
     steps:
       - name: Deploy serverless container
