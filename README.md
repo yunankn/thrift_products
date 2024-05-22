@@ -1,1 +1,2 @@
 # Thrift Products Service
+сервис
